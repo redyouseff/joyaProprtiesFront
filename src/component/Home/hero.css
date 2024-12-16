@@ -1,0 +1,17 @@
+.hero .swiper-pagination-bullet-active {
+    background: #f0ede6 !important;
+  
+  }
+  
+  .hero .swiper-pagination-bullet {
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 50% !important;
+    background: #f0ede6!important;
+    
+  }
+  
+  .hero .swiper-pagination-fraction, .hero .swiper-pagination-custom, .hero .swiper-horizontal > .swiper-pagination-bullets, .hero .swiper-pagination-bullets.swiper-pagination-horizontal  {
+    padding-left:  60px !important;
+    width: fit-content !important;
+  }

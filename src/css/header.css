@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+.header-nav .active {
+  @apply font-extrabold text-[#f0ede6];
+}
+
+.header-nav .link {
+  @apply font-light text-[##EFECE6] text-base  uppercase  py-[5px] relative transition-all duration-500 hover:font-bold;
+}
+
+.header-nav .link::after {
+  content: "";
+  @apply absolute bottom-0 right-0 w-0 h-[1px] bg-[#EFECE6] transition-all duration-300;
+  opacity: 1;
+}
+
+.header-nav .link:hover::after {
+  opacity: 1;
+  width: 100%;
+}
+ .header-nav .link-active.link::after  {
+  opacity: 1;
+  width: 100%;
+}

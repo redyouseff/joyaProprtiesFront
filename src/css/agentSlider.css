@@ -1,0 +1,38 @@
+
+.agent-slider .slick-dots {
+  bottom: -40px; /* Positioning the dots */
+}
+
+.agent-slider .slick-dots li {
+  margin: 0 0px; /* Spacing between dots */
+}
+.agent-slider .slick-dots  ul {
+    margin-top: 5px;
+}
+.agent-slider .slick-dots li button {
+    color: transparent !important;
+  width: 12px; /* Width of the dots */
+  height: 12px; /* Height of the dots */
+  border: none; /* Remove border */
+  border-radius: 50%; /* Make dots circular */
+  background: #3d6a64; /* Default dot color */
+  transition: background 0.3s; /* Smooth transition for hover effects */
+}
+
+.agent-slider .slick-dots li.slick-active button {
+  background: #f0ede6; /* Color for the active dot */
+  color: transparent !important;
+}
+
+.agent-slider .slick-dots li button:hover {
+  background: #698f8c; /* Color for hover effect */
+  color: #698f8c ;
+}
+
+.agent-slider .slick-dots li button:before {
+    color: transparent;
+}
+
+.agent-slider .slick-dots li.slick-active button:before {
+    color: transparent;
+}

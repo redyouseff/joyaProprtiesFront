@@ -1,0 +1,40 @@
+.thumbnailContainer {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .thumbnail {
+    position: relative;
+    width: 100px; /* Adjust size */
+    height: 75px; /* Adjust size */
+    overflow: hidden;
+  }
+  
+  .modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+  }
+  
+  .slide {
+    position: relative;
+    width: 100%; /* Adjust size */
+    height: 80vh; /* Adjust size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   

@@ -1,0 +1,10 @@
+.reviews .swiper-pagination-bullet-active{
+    background-color: #f0ede6 ;
+
+}
+
+.reviews .swiper-pagination-bullet {
+    background-color: #f0ede6;
+    width: 20px;
+    height: 20px;
+}
