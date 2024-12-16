@@ -38,18 +38,7 @@ const Home = () => {
         {/* <PropertySlider /> */}
       </div>
 
-      <div data-aos="fade-right" className="transition-transform ease-in-out">
-        <Services />
-      </div>
-      <div data-aos="fade-up" className="transition-transform ease-in-out">
-        <Reviews />
-      </div>
-      <div data-aos="fade-up" className="transition-transform ease-in-out">
-        <TeamSlider />
-      </div>
-      <div data-aos="fade-up" className="transition-transform ease-in-out">
-        <AgentSlider />
-      </div>
+   
     </div>
   );
 };
