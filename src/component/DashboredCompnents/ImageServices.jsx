@@ -41,10 +41,10 @@ const ImageServices = () => {
     return <div className="text-gray-500 text-lg text-center">Loading...</div>;
   }
 
-  if (imageServicesError) {
-    console.error(imageServicesError);  
-    return <div className="text-red-500 text-lg text-center">Error loading image services</div>;
-  }
+  // if (imageServicesError) {
+  //   console.error(imageService);  
+  //   return <div className="text-red-500 text-lg text-center">Error loading image services</div>;
+  // }
 
   return (
     <div className="max-w-4xl mx-auto p-6bg-[#111612] rounded-lg shadow-lg">
@@ -76,7 +76,7 @@ const ImageServices = () => {
           {updateImageService.isSuccess && <p className="text-green-500">Image updated successfully!</p>}
         </div>
       ) : (
-        <div className="text-gray-500 text-lg text-center">No image service available</div>
+       null
       )}
     </div>
   );

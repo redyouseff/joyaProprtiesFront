@@ -98,7 +98,7 @@ const EditServices = () => {
   };
 
   if (isLoading) return <div>Loading...</div>;
-  // if (error) return <div>Error loading services</div>;
+  if (error) return <div>Error loading services</div>;
 
   return (
     <div className="flex min-h-screen bg-[#111612] text-white">
